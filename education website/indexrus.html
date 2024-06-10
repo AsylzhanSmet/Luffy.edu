@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Домашняя страница</title>
+   <link rel="icon" type="image/x-icon" href="favicon.ico">
+   <link rel="shortcut icon" href="C:\Users\admin\AppData\Local\Temp\d987e96c-e3f9-4f5b-bb92-23a141a955ac_education_website.zip.5ac\education website\images\partner-logo-1.png">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="css/style.css">
+
+   
+</head>
+<body>
+   
+
+
+
+<header class="header">
+
+   <section class="flex">
+
+      <a href="#" class="logo"> <i class="fas fa-lightbulb"></i> luffy.edu </a>
+
+      <nav class="navbar">
+         <div id="close-navbar" class="fas fa-times"></div>
+         <a href="home.html">главная</a>
+         <a href="about.html">о нас</a>
+         <a href="courses.html">курсы</a>
+         <a href="contact.html">контакты</a>
+         <a href="club.html">клуб</a>
+         <li class="rd-nav-item">
+            <button class="btn btn-primary" onclick="location.href='home.html';">Eng</button>
+        </li>
+      </nav>
+
+      <div class="icons">
+         <div id="account-btn" class="fas fa-user"></div>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+   </section>
+
+</header>
+
+
+<div class="account-form">
+
+   <div id="close-form" class="fas fa-times"></div>
+
+   <div class="buttons">
+      <span class="btn active login-btn">войти</span>
+      <span class="btn register-btn">регистрация</span>
+   </div>
+
+   <form class="login-form active" action="">
+      <h3>войти</h3>
+      <input type="email" placeholder="введите ваш email" class="box">
+      <input type="password" placeholder="введите ваш пароль" class="box">
+      <div class="flex">
+         <input type="checkbox" name="" id="remember-me">
+         <label for="remember-me">запомнить меня</label>
+         <a href="#">забыли пароль?</a>
+      </div>
+      <input type="submit" value="войти" class="btn">
+   </form>
+
+   <form class="register-form" action="">
+      <h3>зарегистрироваться</h3>
+      <input type="email" placeholder="введите ваш email" class="box">
+      <input type="password" placeholder="введите ваш пароль" class="box">
+      <input type="password" placeholder="подтвердите ваш пароль" class="box">
+      <input type="submit" value="зарегистрироваться" class="btn">
+   </form>
+
+</div>
+
+
+
+<div class="home">
+
+   <div class="swiper home-slider">
+      
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+            <section>
+               <div class="content">
+                  <h3>добро пожаловать, здесь лучшие курсы!</h3>
+                  <p>Мы некоммерческая организация с миссией предоставления первоклассного образования каждому в любом месте.</p>
+                  <a href="#" class="btn">начать</a>
+               </div>
+            </section>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+            <section>
+               <div class="content">
+                  <h3>добро пожаловать, здесь лучшие курсы!</h3>
+                  <p>Откройте для себя безграничный мир обучения с нами</p>
+                  <a href="#" class="btn">начать</a>
+               </div>
+            </section>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+            <section>
+               <div class="content">
+                  <h3>лучшие курсы вы найдете здесь!</h3>
+                  <p>Для каждого студента, каждого класса, реальные результаты.</p>
+                  <a href="#" class="btn">начать</a>
+               </div>
+            </section>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</div>
+
+
+
+<section class="subjects">
+
+   <h1 class="heading">наши популярные предметы</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/subject-icon-1.png" alt="">
+         <h3>Психология</h3>
+         <p>12 модулей</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-2.png" alt="">
+         <h3>Вычислительная математика</h3>
+         <p>12 модулей</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-3.png" alt="">
+         <h3>Философия</h3>
+         <p>12 модулей</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-4.png" alt="">
+         <h3>Продвинутые базы данных (NoSQL)</h3>
+         <p>12 модулей</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-5.png" alt="">
+         <h3>наука</h3>
+         <p>12 модулей</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-6.png" alt="">
+         <h3>инженерия</h3>
+         <p>12 модулей</p>
+      </div>
+
+   </div>
+
+</section>
+
+
+
+<section class="home-courses">
+
+    <h1 class="heading">наши популярные курсы</h1>
+ 
+    <div class="swiper home-courses-slider">
+ 
+       <div class="swiper-wrapper">
+ 
+          <div class="swiper-slide slide">
+             <div class="image">
+                <img src="images/course-1-1.png" alt="">
+                <h3>Веб-технологии_1 (Фронтенд)</h3>
+             </div>
+             <div class="content">
+                <h3>Веб-технологии_1 (Фронтенд)</h3>
+                <p>Курс представляет из себя изучение основных технологий веб-разработки, с акцентом на клиентской части (фронтенд).
+                   Студенты изучают HTML, CSS и JavaScript, а также различные фреймворки и библиотеки, необходимые для создания интерактивных и настраиваемых веб-приложений.</p>
+                <a href="#" class="btn">читать далее</a>
+             </div>
+          </div>
+ 
+          <div class="swiper-slide slide">
+             <div class="image">
+                <img src="images/course-1-2.png" alt="">
+                <h3>Вычислительная математика</h3>
+             </div>
+             <div class="content">
+                <h3>Вычислительная математика</h3>
+                <p>Курс представляет собой изучение методов численного анализа и алгоритмов для решения математических задач с использованием компьютеров.</p>
+                <a href="#" class="btn">читать далее</a>
+             </div>
+          </div>
+ 
+          <div class="swiper-slide slide">
+             <div class="image">
+                <img src="images/course-1-3.png" alt="">
+                <h3>Философия</h3>
+             </div>
+             <div class="content">
+                <h3>Философия</h3>
+                <p>Это курс, который рассматривает фундаментальные вопросы о существовании, знании, ценностях, разуме, разуме и языке,
+                   стремясь углубить понимание и развить навыки критического мышления.</p>
+                <a href="#" class="btn">читать далее</a>
+             </div>
+          </div>
+ 
+          <div class="swiper-slide slide">
+             <div class="image">
+                <img src="images/course-1-4.png" alt="">
+                <h3>Продвинутые базы данных (NoSQL)</h3>
+             </div>
+             <div class="content">
+                <h3>Продвинутые базы данных (NoSQL)</h3>
+                <p>Курс охватывает продвинутые концепции и техники в нереляционных базах данных, с акцентом на системах баз данных NoSQL.</p>
+                <a href="#" class="btn">читать далее</a>
+             </div>
+          </div>
+ 
+          <div class="swiper-slide slide">
+             <div class="image">
+                <img src="images/course-1-5.png" alt="">
+                <h3>наука</h3>
+             </div>
+             <div class="content">
+                <h3>наука</h3>
+                <p>Курс "Наука" состоит из 12 модулей, охватывающих различные научные темы.</p>
+                <a href="#" class="btn">читать далее</a>
+             </div>
+          </div>
+ 
+          <div class="swiper-slide slide">
+             <div class="image">
+                <img src="images/course-1-6.png" alt="">
+                <h3>инженерия</h3>
+             </div>
+             <div class="content">
+                <h3>инженерия</h>
+                <p>Курс включает в себя всестороннее изучение различных инженерных дисциплин, включая теоретические концепции и практические применения.</p>
+                <a href="#" class="btn">читать далее</a>
+             </div>
+          </div> 
+          <div class="box-container">
+
+            <div class="box">
+               <h3> <i class="fas fa-lightbulb"></i> luffy.edu </h3>
+               <p>Для каждого студента, каждого класса, реальные результаты.</p>
+               <div class="share">
+                  <a href="#" class="fab fa-facebook-f"></a>
+                  <a href="#" class="fab fa-twitter"></a>
+                  <a href="#" class="fab fa-instagram"></a>
+                  <a href="#" class="fab fa-linkedin"></a>
+               </div>
+            </div>
+       
+            <div class="box">
+               <h3>быстрые ссылки</h3>
+               <a href="home.html" class="link">главная</a>
+               <a href="about.html" class="link">о нас</a>
+               <a href="courses.html" class="link">курсы</a>
+               <a href="contact.html" class="link">контакты</a>
+            </div>
+       
+            <div class="box">
+               <h3>полезные ссылки</h3>
+               <a href="#" class="link">центр помощи</a>
+               <a href="#" class="link">задать вопрос</a>
+               <a href="#" class="link">отправить отзыв</a>
+               <a href="#" class="link">политика конфиденциальности</a>
+               <a href="#" class="link">условия использования</a>
+            </div>
+       
+            <div class="box">
+               <h3>рассылка</h3>
+               <p>подпишитесь на последние обновления</p>
+               <form action="">
+                  <input type="email" name="" placeholder="введите ваш email" id="" class="email">
+                  <input type="submit" value="подписаться" class="btn">
+               </form>
+            </div>
+       
+         </div>
+       
+         <div class="credit"> создано <span> Асылжаном </span> | все права защищены! </div>
+        </section>
+    </footer>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    </body>
+    </html>       
